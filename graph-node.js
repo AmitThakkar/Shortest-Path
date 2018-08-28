@@ -1,5 +1,6 @@
 /**
  * Created by Amit Thakkar(vigildbest@gmail.com) on 28/08/18.
+ * This class represents each part of the Graph i.e. Bedroom
  */
 
 class Node {
@@ -23,6 +24,7 @@ class Node {
         if(!nextNode) {
             return;
         }
+        // If this is first node then, setting this.next to empty object.
         if(!this.next) {
             this.next = {};
         }

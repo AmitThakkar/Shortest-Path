@@ -10,6 +10,7 @@ graph.loadData("location.config", (error) => {
         throw error;
     }
 
+    // These are different tests.
     console.log("Bedroom => Bedroom");
     console.log(graph.getShortestPath("Bedroom", "Bedroom"));
     console.log();
